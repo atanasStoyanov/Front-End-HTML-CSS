@@ -1,0 +1,8 @@
+html {
+    font: 18px/1.5 Helvetica, sans-serif;
+}
+
+body, table, tr, th, td {
+    font: inherit;
+}
+
