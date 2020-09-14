@@ -1,0 +1,12 @@
+html {
+    font: 16px/1.5 Verdana sans-serif;
+}
+
+body, p, ul {
+    font: inherit;
+}
+
+ul, ol {
+    padding-bottom: 1.5em;
+    padding-left: 1.5em;
+}
