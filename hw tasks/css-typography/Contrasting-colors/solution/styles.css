@@ -1,0 +1,25 @@
+@import url("typography.css");
+
+/* Reset */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Layout */
+
+body {
+    max-width: 85em;
+    margin: 0 auto;
+}
+
+/* Task specific */
+
+article {
+    margin-top: 3em;
+    background-color: rgb(51, 102, 153);
+    border-radius: 1rem;
+    color: #FFF;
+    padding: 1.5em 2em 1.5em 2em;
+}
