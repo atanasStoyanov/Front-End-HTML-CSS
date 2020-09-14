@@ -1,0 +1,83 @@
+@import url("table.css");
+
+/* Reset */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Layout */
+
+body {
+    max-width: 85em;
+    margin: 0 auto;
+}
+
+/* Typography */
+
+html {
+    font: 16px/1.5em Helvetica, sans-serif;
+}
+
+body, form, input, textarea, select, option, button {
+    font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+    padding-top: 1em;
+    padding-bottom: 1rem;
+    font-weight: normal;
+}
+
+h1 { font-size: 2.6em; }
+h2 { font-size: 2.3em; }
+h3 { font-size: 2.0em; }
+h4 { font-size: 1.7em; }
+h5 { font-size: 1.4em; }
+h6 { font-size: 1.1em; }
+
+p, ul, ol {
+    padding-bottom: 1.5em;
+}
+
+section p:first-child {
+    padding-top: 1.5em;
+}
+
+ul, ol {
+    padding-left: 2.5em;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul li ul {
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    list-style-type: disc;
+}
+
+ul li ul li ul {
+    list-style-type: circle;
+}
+blockquote {
+    padding: 0 2.5em;
+    border-left: 3px solid rgb(221,221,221);
+    font-family: Georgia, serif;
+    margin-bottom: 1.5em;
+}
+
+blockquote p {
+    font-style: italic;
+}
+
+blockquote p:last-child {
+    padding-bottom: 0;
+}
+
+blockquote p.author {
+    text-align: right;
+}
