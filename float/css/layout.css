@@ -1,0 +1,53 @@
+.site {
+    max-width: 60em;
+    margin: 0 auto;
+    background: #EEE;
+}
+
+/* Cleaner */
+
+.cleaner:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.site-header .site-title {
+    float: left;
+}
+
+.site-header {
+    padding: 1em;
+}
+
+.site-title {
+    padding: 0;
+}
+
+.site-nav {
+    float: right;
+}
+
+.site-main {
+    padding: 1em;
+    width: 60%;
+    float: left;
+}
+
+.site-sidebar {
+    padding: 1em;
+    width: 40%;
+    float: left;
+}
+
+.site-sidebar h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.site-footer {
+    clear: both;
+    padding: 1em;
+    text-align: center;
+}
+
