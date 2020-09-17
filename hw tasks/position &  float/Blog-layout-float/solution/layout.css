@@ -1,0 +1,67 @@
+body {
+    max-width: 60em;
+    margin: 0 auto;
+    background-color: rgb(238, 238, 238);
+}
+
+.site-header {
+    border-bottom: 2px solid #000;
+}
+
+.site-header p {
+    padding-bottom: 0.5em;
+}
+
+.site-title {
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 3em;
+}
+
+img {
+    max-width: 20em;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 0.3em solid #000;
+    box-shadow: 0 0 3em gray;
+}
+
+img.right {
+    float: right;
+    margin-left: 1em;
+}
+
+img.left {
+    float: left;
+    margin-right: 1em;
+}
+
+blockquote {
+    float: right;
+    width: 45%;
+    padding-left: 1em;
+    margin-left: 1em;
+}
+
+.site-main {
+    float: left;
+    width: 75%;
+}
+
+.site-sidebar {
+    float: right;
+    width: 25%;
+    padding-left: 4em;
+}
+
+/* Navigations */
+
+.sidebar-nav ul {
+    padding-left: 2.2em;
+}
+
+.sidebar-nav a {
+    text-decoration: none;
+    color: #090;
+}
