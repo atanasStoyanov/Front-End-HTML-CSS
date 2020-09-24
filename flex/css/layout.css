@@ -1,0 +1,49 @@
+body {
+    padding: 2em;
+}
+
+.site {
+    max-width: 90em;
+    margin: 0 auto;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.site-header h1 {
+    padding-top: 0;
+}
+
+.site-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.site-main {
+    flex: 1 1 80%;
+    padding-right: 2em;
+}
+
+.site-sidebar {
+    flex: 1 1 20%;
+}
+
+.site-sidebar ul {
+    list-style-type: none;
+    margin-left: 1em;
+}
+
+.site-sidebar a {
+    text-decoration: none;
+    color: #090;
+}
+
+.site-footer {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
