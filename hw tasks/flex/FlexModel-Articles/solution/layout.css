@@ -1,0 +1,26 @@
+/* Reset */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Layout */
+
+body {
+    max-width: 70vw;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.articles-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article {
+    flex: 0 1 22%;
+}
+
