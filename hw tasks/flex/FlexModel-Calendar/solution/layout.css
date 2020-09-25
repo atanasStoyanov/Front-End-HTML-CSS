@@ -1,0 +1,79 @@
+/* Reset */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Layout */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.calendar {
+    border: 2px solid #333;
+    min-width: 65vw;
+    counter-reset: day;
+}
+
+.calendar-row {
+    display: flex;
+}
+
+.calendar-row + .calendar-row {
+    border-top: 2px solid #333;
+}
+
+.days-container {
+    flex: 0 0 80%;
+    display: flex;
+    flex-wrap: wrap;
+    border-right: 2px solid #333;
+}
+
+.item.label {
+    display: block;
+    flex-basis: 100%;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5em;
+}
+
+.item {
+    padding: 1em 1.5em;
+    flex: 1 1 auto;
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+.item.day {
+    counter-increment: day;
+}
+
+.item.day:before {
+    content: counter(day);
+    display: inline-block;
+    padding-right: 0.5em;
+}
+
+.item.day + .item.day {
+    border-left: 2px solid #333;
+}
+
+.calendar-row-aside {
+    flex: 0 0 20%;
+    padding: 1em 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
